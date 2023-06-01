@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('barber-shop.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.services {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.services .service {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.team {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.team .member {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+}
+
+.team img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.contact .contact-info {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.contact .contact-form {
+    width: 55%;
+}
+
+.contact-form h3 {
+    margin-top: 0;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="date"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-form input[type="submit"] {
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
